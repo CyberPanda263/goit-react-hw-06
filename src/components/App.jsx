@@ -9,17 +9,9 @@ function App() {
   return (
     <div>
       <h1>{title}</h1>
-      <ContactForm
-        /*addContact={addContact}*/
-      />
-      <SearchBox 
-        /*FilterContacts={FilterContacts}
-        setFilterContacts={setFilterContacts}*/
-      />
-      <ContactList
-        /*Constacts={constsFiltering}
-        removeContact={removeContact}*/
-      />
+      <ContactForm />
+      <SearchBox />
+      <ContactList />
     </div>
   )
 }
